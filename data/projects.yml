@@ -1,0 +1,9 @@
+- name: Nomads
+  url: https://nomads-pop-up.herokuapp.com/
+  description: Testing
+  image: nomads.png
+  tech:
+    - devicon-rails-plain-wordmark
+    - devicon-javascript-plain
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-line-wordmark
