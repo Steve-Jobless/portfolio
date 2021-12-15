@@ -1,7 +1,7 @@
 - name: Nomads
   under_construction: not
   url: https://nomads-pop-up.herokuapp.com/
-  description: A matching web app for parties who are looking for a place to rent to set up a pop store, and the space owners who are looking for rentors. The spaces are displayed on a map. The bookings can accepted or rejected.
+  description: A matching web app for parties who are looking for a place to rent in order to set up a popup store, and the space owners who are looking for a renter. The renters can search for the space by a location. The spaces are displayed on the map.
   image: nomads.png
   tech:
     - devicon-rails-plain-wordmark
