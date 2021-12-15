@@ -1,6 +1,7 @@
 - name: Nomads
+  under_construction: not
   url: https://nomads-pop-up.herokuapp.com/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: A matching web app for parties who are looking for a place to rent to set up a pop store, and the space owners who are looking for rentors. The spaces are displayed on a map. The bookings can accepted or rejected.
   image: nomads.png
   tech:
     - devicon-rails-plain-wordmark
@@ -9,8 +10,9 @@
     - devicon-heroku-line-wordmark
 
 - name: TrainEQ
-  url: https://nomads-pop-up.herokuapp.com/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  under_construction: not
+  url: https://github.com/Steve-Jobless/TrainEQAPP
+  description: A chrome extension to get feedback on emotions of particiapnts in an online meeting. Currently works with google meet. The feedback is real-time, and more detailed feedback is provided after the meeting.
   image: traineqapp.png
   tech:
     - devicon-rails-plain-wordmark
@@ -18,12 +20,13 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-line-wordmark
 
-- name: Nomads
-  url: https://nomads-pop-up.herokuapp.com/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: nomads.png
+- name: React e-shop
+  under_construction: is
+  url:
+  description: An online store which uses react.js for the front end, and node.js for the back end.
+  image: coming_soon.jpg
   tech:
-    - devicon-rails-plain-wordmark
+    - devicon-nodejs-plain
     - devicon-javascript-plain
-    - devicon-postgresql-plain-wordmark
+    - devicon-react-original
     - devicon-heroku-line-wordmark
