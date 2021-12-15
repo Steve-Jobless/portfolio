@@ -8,10 +8,10 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-line-wordmark
 
-- name: Nomads
+- name: TrainEQ
   url: https://nomads-pop-up.herokuapp.com/
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: nomads.png
+  image: traineqapp.png
   tech:
     - devicon-rails-plain-wordmark
     - devicon-javascript-plain
