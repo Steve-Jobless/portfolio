@@ -12,7 +12,7 @@
 - name: TrainEQ
   under_construction: not
   url: https://github.com/Steve-Jobless/TrainEQAPP
-  description: A chrome extension to get feedback on the emotion and engagement level  of participants in an online meeting. The feedback on the emotion is displayed in real-time, and final report on the participants can be accessed in the dashboard at the end of the meeting.  Currently, only works with google meets. 
+  description: A chrome extension to get feedback on the emotion level  of participants in an online meeting. A real feedback on the emotion, and final report on the participants can be accessed in the dashboard at the end of the meeting.
   image: traineqapp.png
   tech:
     - devicon-rails-plain-wordmark
@@ -22,7 +22,7 @@
 
 - name: React e-shop
   under_construction: is
-  url:
+  url: https://github.com/Steve-Jobless/react-eshop
   description: An online store which uses react.js for the front end, and node.js for the back end.
   image: coming_soon.jpg
   tech:
