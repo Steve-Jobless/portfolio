@@ -12,7 +12,7 @@
 - name: TrainEQ
   under_construction: not
   url: https://github.com/Steve-Jobless/TrainEQAPP
-  description: A chrome extension to get feedback on emotions of particiapnts in an online meeting. Currently works with google meet. The feedback is real-time, and more detailed feedback is provided after the meeting.
+  description: A chrome extension to get feedback on the emotion and engagement level  of participants in an online meeting. The feedback on the emotion is displayed in real-time, and final report on the participants can be accessed in the dashboard at the end of the meeting.  Currently, only works with google meets. 
   image: traineqapp.png
   tech:
     - devicon-rails-plain-wordmark
