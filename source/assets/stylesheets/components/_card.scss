@@ -7,29 +7,6 @@
   position: relative;
 }
 
-// .message {
-//   visibility: hidden;
-//   color: #fc293e;
-//   position: absolute;
-//   left:10px;
-//   bottom:40px;
-//   font-size: 40px;
-//   font-weight: bold;
-//   text-align: center;
-
-// }
-
-// .is:hover {
-//  .message {
-//      visibility: visible;
-//      z-index: 3;
-//  }
-//  .card-trip {
-//    background-color: rgba(0, 0, 0, .70);
-//  }
-
-// }
-
 a{
     text-decoration: none;
     color: black;
@@ -47,11 +24,6 @@ a:hover{
   bottom:10px;
 }
 
-.card-trip:hover {
- transform: scale(1.2);
- transition: transform .2s ease-in-out;
- z-index: 2;
-}
 
 .card-trip > img {
   height: 300px;
@@ -79,3 +51,5 @@ a:hover{
   align-items: flex-end;
   position: relative;
 }
+
+
