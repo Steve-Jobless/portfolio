@@ -2,8 +2,8 @@
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  height: 500px;
-  width: 350px;
+  height: 300px;
+  width: 390px;
   position: relative;
 }
 
@@ -17,17 +17,17 @@ a:hover{
     color: black;
   }
 
-.tech-list{
-  font-size: 30px;
-  position: absolute;
-  right:10px;
-  bottom:10px;
-}
+// .tech-list{
+//   font-size: 30px;
+//   position: absolute;
+//   right:10px;
+//   bottom:10px;
+// }
 
 
 .card-trip > img {
   height: 300px;
-  width: 100%;
+  width: 390px;
   object-fit: cover;
 }
 
@@ -51,5 +51,3 @@ a:hover{
   align-items: flex-end;
   position: relative;
 }
-
-
