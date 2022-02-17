@@ -4,7 +4,7 @@
     <% data.projects.each do |project| %>
         <div  <%= project.under_construction %>" style="width:auto;">
         <% link_to (project.url), target: "_blank" do %>
-        <div class="card-trip mt-2">
+        <div class="card-trip">
           <%= image_tag project.image %>
           <%# <div class="card-trip-infos"> %>
             <%# <div class="info-name-desc"> %>
