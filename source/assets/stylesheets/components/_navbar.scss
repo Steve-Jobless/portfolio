@@ -4,3 +4,19 @@
     padding-top: 50px;
 }
 
+.nav-link{
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.navbar-select{
+  padding: 0 5px;
+}
+
+.navbar-select:hover{
+  border: 1px solid red;
+  padding: 0 5px;
+}
+
+.active{
+  background-color: #FAFF00;
+}
