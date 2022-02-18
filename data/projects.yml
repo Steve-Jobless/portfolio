@@ -23,7 +23,7 @@
 
 
 - id: 3
-  name: React e-shop
+  name: React-e-shop
   under_construction: is
   url: https://github.com/Steve-Jobless/react-eshop
   description: An online store which uses react.js for the front end, and node.js for the back end.

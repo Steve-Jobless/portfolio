@@ -25,7 +25,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
 <!-- carousel  start-->
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div id="control-<%=project.name%>" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <%= image_tag project.image[0], class: "d-block w-100", alt: "First slide"  %>
@@ -37,11 +37,11 @@
         <%= image_tag project.image[0], class: "d-block w-100", alt: "Third slide"  %>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#control-<%=project.name%>" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#control-<%=project.name%>" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -55,7 +55,7 @@
         </div>
         <div class="modal-footer">
           <div class="url">
-            <a class="btn btn-lg btn-outline-secondary" href="<%= project.url %>">View site.</a>
+            <a class="btn btn-lg btn-outline-secondary" href="<%= project.url %>" target="_blank">View site.</a>
           </div>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
