@@ -22,3 +22,4 @@ for(let i=0; i<sectionParts.length; i++){
     navbarSelectLinks[i].classList.add("active")
   })
 }
+

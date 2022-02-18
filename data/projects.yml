@@ -6,8 +6,7 @@
   tech:
     - devicon-rails-plain-wordmark
     - devicon-javascript-plain
-    - devicon-postgresql-plain-wordmark
-    - devicon-heroku-line-wordmark
+ 
 
 - name: TrainEQ
   under_construction: not
@@ -17,8 +16,7 @@
   tech:
     - devicon-rails-plain-wordmark
     - devicon-javascript-plain
-    - devicon-postgresql-plain-wordmark
-    - devicon-heroku-line-wordmark
+
 
 - name: React e-shop
   under_construction: is
@@ -29,7 +27,7 @@
     - devicon-nodejs-plain
     - devicon-javascript-plain
     - devicon-react-original
-    - devicon-heroku-line-wordmark
+
 
 - name: Nomads
   under_construction: not
@@ -39,8 +37,7 @@
   tech:
     - devicon-rails-plain-wordmark
     - devicon-javascript-plain
-    - devicon-postgresql-plain-wordmark
-    - devicon-heroku-line-wordmark
+
 
 - name: TrainEQ
   under_construction: not
@@ -50,8 +47,7 @@
   tech:
     - devicon-rails-plain-wordmark
     - devicon-javascript-plain
-    - devicon-postgresql-plain-wordmark
-    - devicon-heroku-line-wordmark
+
 
 - name: React e-shop
   under_construction: is
@@ -62,7 +58,7 @@
     - devicon-nodejs-plain
     - devicon-javascript-plain
     - devicon-react-original
-    - devicon-heroku-line-wordmark
+
 
 - name: Nomads
   under_construction: not
@@ -72,8 +68,7 @@
   tech:
     - devicon-rails-plain-wordmark
     - devicon-javascript-plain
-    - devicon-postgresql-plain-wordmark
-    - devicon-heroku-line-wordmark
+
 
 - name: TrainEQ
   under_construction: not
@@ -83,8 +78,6 @@
   tech:
     - devicon-rails-plain-wordmark
     - devicon-javascript-plain
-    - devicon-postgresql-plain-wordmark
-    - devicon-heroku-line-wordmark
 
 - name: React e-shop
   under_construction: is
@@ -95,5 +88,3 @@
     - devicon-nodejs-plain
     - devicon-javascript-plain
     - devicon-react-original
-    - devicon-heroku-line-wordmark
-

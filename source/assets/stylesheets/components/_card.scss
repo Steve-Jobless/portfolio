@@ -17,12 +17,7 @@ a:hover{
     color: black;
   }
 
-// .tech-list{
-//   font-size: 30px;
-//   position: absolute;
-//   right:10px;
-//   bottom:10px;
-// }
+
 
 
 .card-trip > img {
@@ -50,4 +45,45 @@ a:hover{
   justify-content: space-between;
   align-items: flex-end;
   position: relative;
+}
+
+.card-trip:hover{
+  img{
+    opacity: 10%;
+  }
+  .modal-button{
+    display: inline-block;
+  }
+  .name{
+    display: inline-block;
+  }
+  .tech-list{
+    display: inline-block;
+
+  }
+}
+
+.modal-button{
+
+  position: absolute;
+  display: none;
+  z-index: 1;
+  left: 125px;
+  bottom:30px
+}
+
+.name{
+  position: absolute;
+  display: none;
+  z-index: 1;
+  left: 125px;
+  top:30px
+}
+
+.tech-list{
+  font-size: 50px;
+  position: absolute;
+  left:125px;
+  top:100px;
+  display: none;
 }
