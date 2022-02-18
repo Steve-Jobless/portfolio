@@ -5,6 +5,8 @@
   height: 300px;
   width: 390px;
   position: relative;
+  transition: all ease-in-out 1s;
+
 }
 
 a{
@@ -50,6 +52,8 @@ a:hover{
 .card-trip:hover{
   img{
     opacity: 10%;
+    transition: all ease-in-out 0.75s;
+
   }
   .modal-button{
     display: inline-block;
@@ -59,7 +63,6 @@ a:hover{
   }
   .tech-list{
     display: inline-block;
-
   }
 }
 
@@ -69,7 +72,8 @@ a:hover{
   display: none;
   z-index: 1;
   left: 125px;
-  bottom:30px
+  bottom:30px;
+  transition: all ease-in-out 0.25s;
 }
 
 .name{
