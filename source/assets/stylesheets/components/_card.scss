@@ -41,13 +41,7 @@ a:hover{
 }
 
 
-.card-trip .card-trip-infos {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
-}
+
 
 .card-trip:hover{
   img{
@@ -67,21 +61,30 @@ a:hover{
 }
 
 .modal-button{
-
   position: absolute;
   display: none;
   z-index: 1;
   left: 125px;
   bottom:30px;
   transition: all ease-in-out 0.25s;
+  border: 2px solid #e21a6d;
+  color: black;
 }
+
+.modal-button:hover{
+  background-color: #e21a6d;
+  border: 2px solid #e21a6d;
+}
+
 
 .name{
   position: absolute;
   display: none;
   z-index: 1;
   left: 125px;
-  top:30px
+  top:30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
 }
 
 .tech-list{
@@ -90,4 +93,5 @@ a:hover{
   left:125px;
   top:100px;
   display: none;
+  color: #e21a6d;
 }

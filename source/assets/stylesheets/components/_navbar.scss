@@ -6,19 +6,32 @@
 
 
 .nav-link{
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-family: 'Raleway', sans-serif;;
 }
 
 .navbar-select{
-  padding: 0 5px;
+  padding: 6px 20px;
+  line-height: 18px;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .navbar-select:hover{
-  // border: 1px solid red;
-  // padding: 0 5px;
-  background-color: lightgray;
+  color: #e21a6d;
 }
 
 .active{
-  background-color: #FAFF00;
+  color: #e21a6d;
 }
+
+.navbar-collapse{
+  background-color: #1b242f;
+  border-bottom: 3px solid #06c2c9;
+}
+
+.navbar{
+  padding:0;
+}
+
+
