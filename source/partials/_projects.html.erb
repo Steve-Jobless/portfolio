@@ -54,8 +54,13 @@
           <%= project.description %>
         </div>
         <div class="modal-footer">
-          <div class="url">
-            <a class="btn btn-lg btn-outline-secondary" href="<%= project.url %>" target="_blank">View site.</a>
+          <div class="footer-buttons">
+            <div class="url">
+              <a class="btn btn btn-outline-secondary" href="<%= project.url %>" target="_blank"><span class="iconify" data-icon="mdi:open-in-new"></span>VIEW SITE</a>
+            </div>
+            <div class="repo">
+              <a class="btn btn btn-outline-secondary" href="<%= project.url %>" target="_blank"><span class="iconify" data-icon="akar-icons:github-fill"></span>VIEW REPO</a>
+            </div>
           </div>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
