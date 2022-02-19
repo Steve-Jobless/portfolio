@@ -2,6 +2,7 @@
   name: Nomads
   under_construction: not
   url: https://nomads-pop-up.herokuapp.com/
+  repo: https://github.com/Steve-Jobless/rails-airbnb-clone
   description: A matching web app for parties who are looking for a place to rent in order to set up a popup store, and the space owners who are looking for a renter. The renters can search for the space by a location. The spaces are displayed on the map.
   image:
     - nomads1.png
@@ -15,14 +16,13 @@
 - id: 2
   name: TrainEQ
   under_construction: not
-  url: https://github.com/Steve-Jobless/TrainEQAPP
+  url: none
+  repo: https://github.com/Steve-Jobless/TrainEQAPP
   description: A chrome extension to get real-time feedback on the emotion and engagement level  of participants in an online meeting. A final report on the participants can be accessed in the dashboard at the end of the meeting.
   image:
     - traineq1.png
     - traineq2.png
     - traineq3.png
-
-
   tech:
     - devicon-rails-plain-wordmark
     - devicon-javascript-plain
@@ -31,8 +31,9 @@
 - id: 3
   name: React-e-shop
   under_construction: is
-  url: https://github.com/Steve-Jobless/react-eshop
-  description: An online store which uses react.js for the front end, and node.js for the back end.
+  url: none
+  repo: https://github.com/Steve-Jobless/react-eshop
+  description: An online store built using only javascript and react. Not fully finished yet.
   image:
     - react-e-shop1.png
     - react-e-shop2.png
