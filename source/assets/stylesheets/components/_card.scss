@@ -20,27 +20,11 @@ a:hover{
   }
 
 
-
-
 .card-trip > img {
   height: 300px;
   width: 390px;
   object-fit: cover;
 }
-
-.card-trip h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.card-trip p {
-  font-size: 12px;
-  opacity: .7;
-  margin: 0;
-}
-
-
 
 
 .card-trip:hover{
@@ -69,6 +53,8 @@ a:hover{
   transition: all ease-in-out 0.25s;
   border: 2px solid #e21a6d;
   color: black;
+
+
 }
 
 .modal-button:hover{
@@ -81,17 +67,37 @@ a:hover{
   position: absolute;
   display: none;
   z-index: 1;
-  left: 125px;
+  // left: 125px;
   top:30px;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
+
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 .tech-list{
   font-size: 50px;
   position: absolute;
-  left:125px;
+  // left:125px;
   top:100px;
   display: none;
   color: #e21a6d;
+
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.carousel-inner img{
+  width: auto;
+  height: 423.914px;
+  max-height: 423.914px;
 }

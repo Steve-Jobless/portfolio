@@ -4,7 +4,7 @@
     <% data.projects.each do |project| %>
         <div  <%= project.under_construction %> style="width:auto;">
         <div class="card-trip">
-          <h3 class="name"><%= project.name %></h3>
+          <h3 class="name"><%= project.name.upcase %></h3>
           <div class="tech-list">
               <% project.tech.each do |tech| %>
                 <i class="<%= tech %>"></i>
@@ -22,7 +22,7 @@
 <!-- Modal -->
 <% data.projects.each do |project| %>
   <div class="modal fade" id="modal-<%=project.name%>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
 <!-- carousel  start-->
   <div id="control-<%=project.name%>" class="carousel slide" data-ride="carousel">
