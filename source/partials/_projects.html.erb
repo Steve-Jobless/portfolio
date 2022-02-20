@@ -1,27 +1,72 @@
-<div class="text-center mt-5">
-  <h2>Projects</h2>
+<div id ="projects" class="text-center part">
+  <div class="mt-5 mb-5 header">PROJECTS.</div>
+    <div class="row justify-content-center">
+    <% data.projects.each do |project| %>
+        <div  <%= project.under_construction %> style="width:auto;">
+        <div class="card-trip">
+          <h3 class="name"><%= project.name.upcase %></h3>
+          <div class="tech-list">
+              <% project.tech.each do |tech| %>
+                <i class="<%= tech %>"></i>
+              <% end %>
+          </div>
+          <button class="btn btn-lg btn-outline-secondary modal-button" data-toggle="modal" data-target="#modal-<%= project.name %>">Learn more.</button>
+              <%= image_tag project.image[0] %>
+        </div>
+      </div>
+  <% end %>
+</div>
 </div>
 
-<div class="row justify-content-center">
-  <% data.projects.each do |project| %>
-      <div class="col-12 col-md-6 col-lg-4 <%= project.under_construction %>" style="width:auto;">
-      <% link_to (project.url), target: "_blank" do %>
-      <div class="card-trip mt-2">
-        <%= image_tag project.image %>
-        <%# <div class="message"> Sorry, still working on it!</div> %>
-        <div class="card-trip-infos">
-          <div class="info-name-desc">
-            <h3><%= project.name %></h3>
-            <p><%= project.description %></p>
-          </div>
-        </div>
-          <div class="tech-list">
-            <% project.tech.each do |tech| %>
-              <i class="<%= tech %>"></i>
-            <% end %>
-          </div>
+
+<!-- Modal -->
+<% data.projects.each do |project| %>
+  <div class="modal fade" id="modal-<%=project.name%>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+<!-- carousel  start-->
+  <div id="control-<%=project.name%>" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <%= image_tag project.image[0], class: "d-block w-100", alt: "First slide"  %>
       </div>
-      <% end %>
+      <div class="carousel-item">
+        <%= image_tag project.image[1], class: "d-block w-100", alt: "Second slide"  %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag project.image[2], class: "d-block w-100", alt: "Third slide"  %>
+      </div>
     </div>
+    <a class="carousel-control-prev" href="#control-<%=project.name%>" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#control-<%=project.name%>" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<!-- carousel end -->
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"><%= project.name %></h5>
+        </div>
+        <div class="modal-body">
+          <%= project.description %>
+        </div>
+        <div class="modal-footer">
+          <div class="footer-buttons">
+            <div class="url <%= project.url == "none" ? "no-url" : "yes-url" %>">
+              <a class="btn btn btn-outline-secondary" href="<%= project.url %>" target="_blank"><span class="iconify" data-icon="mdi:open-in-new"></span>VIEW SITE</a>
+            </div>
+            <div class="repo">
+              <a class="btn btn btn-outline-secondary" href="<%= project.repo %>" target="_blank"><span class="iconify" data-icon="akar-icons:github-fill"></span>VIEW REPO</a>
+            </div>
+          </div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 <% end %>
-</div>

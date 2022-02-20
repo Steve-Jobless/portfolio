@@ -1,12 +1,37 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+
+#aboutme,#projects,#contact{
+    padding-top: 50px;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+
+
+.nav-link{
+  font-family: 'Raleway', sans-serif;;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-select{
+  padding: 6px 20px;
+  line-height: 18px;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
 }
+
+.navbar-select:hover{
+  color: #e21a6d;
+}
+
+.active{
+  color: #e21a6d;
+}
+
+.navbar-collapse{
+  background-color: #1b242f;
+  border-bottom: 3px solid #06c2c9;
+}
+
+.navbar{
+  padding:0;
+}
+
+

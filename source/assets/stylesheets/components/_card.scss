@@ -1,34 +1,13 @@
 .card-trip {
   overflow: hidden;
   background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  height: 500px;
-  width: 350px;
+  box-shadow: 0 0 2px rgba(0,0,0,0.1);
+  height: 300px;
+  width: 390px;
   position: relative;
+  transition: all ease-in-out 1s;
+
 }
-
-// .message {
-//   visibility: hidden;
-//   color: #fc293e;
-//   position: absolute;
-//   left:10px;
-//   bottom:40px;
-//   font-size: 40px;
-//   font-weight: bold;
-//   text-align: center;
-
-// }
-
-// .is:hover {
-//  .message {
-//      visibility: visible;
-//      z-index: 3;
-//  }
-//  .card-trip {
-//    background-color: rgba(0, 0, 0, .70);
-//  }
-
-// }
 
 a{
     text-decoration: none;
@@ -40,42 +19,129 @@ a:hover{
     color: black;
   }
 
-.tech-list{
-  font-size: 30px;
-  position: absolute;
-  right:10px;
-  bottom:10px;
-}
-
-.card-trip:hover {
- transform: scale(1.2);
- transition: transform .2s ease-in-out;
- z-index: 2;
-}
 
 .card-trip > img {
   height: 300px;
-  width: 100%;
+  width: 390px;
   object-fit: cover;
 }
 
-.card-trip h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
+
+.card-trip:hover{
+  img{
+    opacity: 10%;
+    transition: all ease-in-out 0.75s;
+
+  }
+  .modal-button{
+    display: inline-block;
+  }
+  .name{
+    display: inline-block;
+  }
+  .tech-list{
+    display: inline-block;
+  }
 }
 
-.card-trip p {
-  font-size: 12px;
-  opacity: .7;
-  margin: 0;
+.modal-button{
+  position: absolute;
+  display: none;
+  z-index: 1;
+  left: 125px;
+  bottom:30px;
+  transition: all ease-in-out 0.25s;
+  border: 2px solid #e21a6d;
+  color: black;
+
+
+}
+
+.modal-button:hover{
+  background-color: #e21a6d;
+  border: 2px solid #e21a6d;
 }
 
 
-.card-trip .card-trip-infos {
-  padding: 16px;
+.name{
+  position: absolute;
+  display: none;
+  z-index: 1;
+  // left: 125px;
+  top:30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.tech-list{
+  font-size: 50px;
+  position: absolute;
+  // left:125px;
+  top:100px;
+  display: none;
+  color: #e21a6d;
+
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.carousel-inner img{
+  width: auto;
+  height: 423.914px;
+  max-height: 423.914px;
+}
+
+.close{
+  font-size: 40px;
+}
+
+.modal-title{
+  color: #444444;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.modal-header{
+  border: none;
+  padding: 16px 28px;
+}
+
+.modal-body{
+  padding: 16px 28px;
+}
+
+.modal-footer{
+  border: none;
+  padding: 16px 28px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
+
+}
+
+.iconify {
+  padding-right: 5px;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.footer-buttons{
+  display: flex;
+  .url{
+    margin-right: 10px;
+
+  }
+  .no-url{
+    display:none;
+  }
 }

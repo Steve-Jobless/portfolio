@@ -18,6 +18,10 @@
     <%= stylesheet_link_tag "app" %>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 
 
 
@@ -26,5 +30,7 @@
   <body>
     <%= yield %>
     <%= javascript_include_tag "bundle" %>
+    <%= javascript_include_tag 'navbar' %>
+
   </body>
 </html>
