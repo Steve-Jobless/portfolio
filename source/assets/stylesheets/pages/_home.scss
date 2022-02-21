@@ -39,9 +39,11 @@ body{
   font-size: 32pt;
   line-height: 36pt;
   color: white;
+  .title-text{
+    margin-bottom: 50px;
+  }
 
   .button-text{
-    margin-top: 40px;
     padding: 12px 20px;
     font-size: 16pt;
     line-height: 18px;
