@@ -100,6 +100,7 @@ a:hover{
   width: auto;
   height: 423.914px;
   max-height: 423.914px;
+  object-fit: contain;
 }
 
 .close{
@@ -144,4 +145,23 @@ a:hover{
   .no-url{
     display:none;
   }
+}
+
+@media screen and (max-width: 770px){
+  .card-trip{
+  img{
+    opacity: 10%;
+    transition: all ease-in-out 0.75s;
+
+  }
+  .modal-button{
+    display: inline-block;
+  }
+  .name{
+    display: inline-block;
+  }
+  .tech-list{
+    display: inline-block;
+  }
+}
 }

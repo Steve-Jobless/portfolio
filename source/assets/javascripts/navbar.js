@@ -1,9 +1,9 @@
-const navbarSelectLinks = document.querySelectorAll(".navbar-select")
-const sectionParts = document.querySelectorAll(".part")
+const navbarSelectLinks = document.querySelectorAll('.navbar-select');
+const sectionParts = document.querySelectorAll('.part');
 
 navbarSelectLinks.forEach((navLink) => {
- navLink.addEventListener('click', function () {
-   navbarSelectLinks.forEach((nav)=>{nav.classList.remove("active")
+  navLink.addEventListener('click', function () {
+  navbarSelectLinks.forEach((nav)=>{nav.classList.remove("active")
   })
   navLink.classList.add('active')
  })
@@ -22,4 +22,3 @@ for(let i=0; i<sectionParts.length; i++){
     navbarSelectLinks[i].classList.add("active")
   })
 }
-
