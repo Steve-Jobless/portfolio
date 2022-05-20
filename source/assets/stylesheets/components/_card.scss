@@ -149,6 +149,7 @@ a:hover{
 
 @media screen and (max-width: 770px){
   .card-trip{
+  border-bottom: solid #06c2c9 2px;
   img{
     opacity: 10%;
     transition: all ease-in-out 0.75s;
